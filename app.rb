@@ -10,7 +10,5 @@ class App < Sinatra::Base
   get '/favorite-song' do
     "I don't have a favorite song"
   end 
-  get '/favorite-food' do
-    "My favorite kind of food is Spanish food"
-  end
+
 end
